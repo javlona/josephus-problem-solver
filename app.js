@@ -20,3 +20,6 @@
     }
 
     btn.addEventListener('click', () => solveJosephus())
+    this.addEventListener('keydown', () => {
+        if(key === "Enter") solveJosephus()
+    })
