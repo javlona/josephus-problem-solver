@@ -1,0 +1,16 @@
+html {
+  font-size: 125%;
+}
+
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+}
+
+button {
+      display: block;
+      margin-top: 10px;
+}
