@@ -1,5 +1,12 @@
+* {
+      box-sizing: border-box;
+      -moz-transform: scale(1.3); /* for Firefox, default 1*/
+      zoom:130%; /* For Chrome, IE, default 100%*/
+      touch-action: manipulation;
+}
+
 html {
-  font-size: 125%;
+      font-size: 125%;
 }
 
 body {
@@ -7,11 +14,16 @@ body {
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      height: 100vh;
-      -moz-transform: scale(1.3); /* for Firefox, default 1*/
-      zoom:130%; /* For Chrome, IE, default 100%*/
+      height: 100%;
+      padding-top: 8rem;
 }
 
 button {
-      margin-top: 10px;
+      margin-top: 15px !important;
+      width: 100%;
+}
+
+.container {
+      width: 70vw;
+
 }
