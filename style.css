@@ -3,6 +3,7 @@
       -moz-transform: scale(1.3); /* for Firefox, default 1*/
       zoom:130%; /* For Chrome, IE, default 100%*/
       touch-action: manipulation;
+      transition: all 0.3s ease-in-out;
 }
 
 html {
@@ -26,4 +27,12 @@ button {
 .container {
       width: 70vw;
 
+}
+
+#result {
+      margin-top: 2rem;
+      font-size: 2rem;
+      background-color: #eeeeee;
+      padding: 1rem;
+      font-weight: 600;
 }
